@@ -1,0 +1,24 @@
+{
+  "name": "rand-password",
+  "version": "1.0.0",
+  "description": "generate a random secure password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toihirhalim/rand-password.git"
+  },
+  "keywords": [
+    "password",
+    "secure",
+    "random"
+  ],
+  "author": "Toihir Halim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toihirhalim/rand-password/issues"
+  },
+  "homepage": "https://github.com/toihirhalim/rand-password#readme"
+}
