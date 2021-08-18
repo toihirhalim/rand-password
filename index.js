@@ -1,5 +1,5 @@
 function generatePassword(minLength = 8, maxLength = 16) {
-    let length = Math.floor(Math.random() * (maxLength - minLength)) + maxLength;
+    let length = Math.floor(Math.random() * (maxLength - minLength)) + minLength;
 
     let password = ''
 
