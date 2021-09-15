@@ -1,4 +1,3 @@
-
 const defaultOptions = {
     minLength: 8,
     maxLength: 16
@@ -17,4 +16,14 @@ function generatePassword(options) {
     return password
 }
 
-module.exports = generatePassword
+async function generatePasswordAsync(options, callback) {
+    const password = generatePassword(options)
+
+    if (callback && typeof callback == 'function') {
+        callback(null, password)
+    }
+
+    return password
+}
+
+module.exports = { generatePassword, generatePasswordAsync }
