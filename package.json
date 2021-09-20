@@ -1,6 +1,6 @@
 {
   "name": "rand-password",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "generate a random secure password",
   "main": "index.js",
   "scripts": {
